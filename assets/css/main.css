@@ -1,0 +1,162 @@
+/* ============================================== /*
+ *                    Main
+/* ============================================== */
+
+.p0 { padding: 0; background-color:#181818 } 
+.bg_gray { background-color: #eee; }
+
+.sect_1 { position: relative; }
+.sect_1 img { width: 100%; height: auto; }
+.sect_1.specialprice {margin: 0 auto; padding: 0 30%;}
+
+
+.sect_2 { position: relative; z-index: 1; }
+.sect_2.kyowon .product_area img { float: left; padding: 15px; width: 25%; transform: scale(1.0); transition-duration: 0.3s; }
+.sect_2.kyowon .product_area img:hover { transform: scale(1.1); transition-duration: 0.3s; }
+
+.sect_2.hyowon { background-size: cover; background-position: 50%; padding-bottom: 80px; }
+.sect_2.hyowon .title_area { margin: 0 auto; text-align: center; }
+.sect_2.hyowon .title_area .light { display: block; margin: 0 auto; width: 100%; max-width: 320px; text-align: center; }
+.sect_2.hyowon .title_area .title { display: block; margin: 0 auto; margin-bottom: 60px; width: 100%; max-width: 460px; text-align: center; }
+.sect_2.hyowon .product_area { display: inline-block; }
+.sect_2.hyowon .product_area .number { overflow: hidden; position: absolute; top: -2px; left: -2px; padding: 4px 5px 4.5px 5px; width: 35px; height: 35px; background-color: #191919; background-size: cover; background-position: 50%; border-radius: 50%; z-index: 1; }
+.sect_2.hyowon .product_area .number img { margin: auto; width: 100%; }
+.sect_2.hyowon .product_area .product img { float: left; margin: 15px 0px; width: 100%; height: 280px; transform: scale(1.0); transition-duration: 0.3s; }
+
+.sect_3 { position: relative; text-align: center; }
+.sect_3 img { width: 100%; height: auto; }
+.sect_3 button { margin: 0 auto; padding: 12px 20px 12px 15px; border: 0px; border-radius: 20px; }
+.sect_3.button_sbj { margin: 0 auto; padding: 12px 20px 12px 15px; border: 0px; border-radius: 20px; }
+.sect_3 button img { width: auto; height: 24px; }
+.sect_3.kyowon button { background-color: #033757; }
+.sect_3.hyowon button { margin-top: 50px; background-color: #1e80db; }
+.sect_3.utopia button { margin-top: 50px; background-color: #ffe562; }
+.sect_3.utopia_sbj button  { margin-top: 10px;    margin-left: 0; background-color: white; }
+/* .sect_3.utopia img.pc { box-shadow: 0px 0px 20px #aaa; } */
+  
+
+.sect_4 { position: fixed; bottom: 0px; width: 100%; z-index: 1050; }
+.sect_4.kyowon { background-color: #033757; }
+.sect_4.hyowon { background-color: #1e80db; }
+.sect_4.specialprice { background-color: #be0000; }
+.sect_4.utopia { background-color: #ffe562; }
+.sect_4.utopia_sbj { background-color: #30b8d2; }
+.sect_4.kyowon .pdata_up { background-color: #033757; }
+.sect_4.hyowon .pdata_up { background-color: #1e80db; }
+.sect_4.specialprice .pdata_up { background-color: #be0000; }
+.sect_4.utopia .pdata_up { background-color: #ffe562; }
+.sect_4.utopia_sbj .pdata_up { background-color: #5d70e6; }
+
+.sect_4.kyowon .subs_event {text-align: center;}
+
+.sect_4 .pdata_up { position: absolute; top: -20px; left: 45%; right: 55%; padding: 2px 6px 0px 6px; width: 32px; height: 20px; border: 0px; outline: none; text-align: center; }
+.sect_4 .pdata_up span { position: relative; display: inline-block; font-size: 18px; color: #fff; transform: rotate(0deg); transition-duration: 0.3s; -web-kit-transition-duration: 0.3s; }
+.sect_4 .pdata_up.active span { top: -1px; transform: rotate(180deg); transition-duration: 0.3s; -web-kit-transition-duration: 0.3s; }
+
+.sect_4 .get_btn { padding: 10px; width: 100%; background-color: #2970d6; border: none; font-size: 20px; font-weight: bold; color: #fff; }
+
+.sect_4 .title { padding: 12px 0px;}
+.sect_4 .title img { width:130px;  }
+.sect_4 .sytitle img { height: 85px; }
+.sect_4 .title img:nth-child(2) { padding: 1px; }
+
+.sect_4 .form { transition-duration: 0.5s; -web-kit-transition-duration: 0.5s; }
+.sect_4 .form.active { height: 210px; }
+.sect_4 .form.specialprice.active { height: 240px; }
+.sect_4 .form input[type=text] { margin-right: 20px; padding: 10px; font-size: 18px; }
+.sect_4 .form button { padding: 13px 20px 13px 25px; border: 0px; border-radius: 30px; background-color: #fff; cursor: pointer; }
+.sect_4 .form button img { max-height: 26px; }
+
+.sect_4 .check { margin-bottom: 3px; vertical-align: middle; font-size: 14px; color: #fff; }
+.sect_4 .check div:first-child { margin-bottom: 5px; }
+.sect_4 .check div a { margin-left: 10px; font-size: 14px; color: #eee; }
+.sect_4 .check div input[type=checkbox] { margin: 0px 3px 3px 0px; }
+
+.sect_4 .inpput1 {margin-top: 20px;}
+
+.popup { opacity: 0; display: none; position: relative; width: auto; padding: 15px; background-color: #fff; }
+.popup .close { text-align: right; }
+
+.modal table { margin-top: 10px; font-size: 14px; color: #222; }
+.modal table th,
+.modal table td { vertical-align: middle !important; }
+.modal table th { background-color: #eee; }
+
+.modal-open .sect_4 { padding-right: 17px; }
+.modal-dialog .modal-content {background-color: #fff;}
+.modal-dialog .modal-content .modal-footer .btn-danger {background-color: #46b7c8;border-color:#46b7c8;}
+
+
+
+@media (max-width: 1199px){
+	.sect_2.hyowon .product_area .product img { height: 230px; }
+}
+
+@media (max-width: 991px){
+	.sect_2.hyowon .product_area .product img { height: auto; }
+}
+
+@media (min-width: 768px) {
+	.pc { display: block; }
+	.mb { display: none; }
+	.pc_btn { display: inline-block; }
+	.mb_btn { display: none; }
+
+	.rental .form {height: auto!important;}
+	.sect_4 { text-align: center;  }
+	.sect_4 .pdata_up { display: none; }
+	.sect_4 .form { margin-bottom: 50px; height: 105px; }
+	.sect_4 .form.active { height: 105px; }
+	.sect_4 .check { margin-top: 8px; }
+
+	
+}
+
+@media (max-width: 767px) {
+	.pc { display: none; }
+	.mb { display: block; }
+	.pc_btn { display: none; }
+	.mb_btn { display: block; margin: auto; }
+
+	.sect_1.specialprice {margin: 0 auto; padding: 0;}
+
+	.sect_2.kyowon .product_area img:hover { transform: scale(1.0); }
+	.sect_2.hyowon .col-xs-12,
+	.sect_2.hyowon .col-xs-6 { padding: 0px 15px; }
+	.sect_2.hyowon .title_area .title { width: 100%; }
+	.sect_2.hyowon .product_area .product img { margin: 10px 0px; }
+/* 
+	.sect_3 { padding-bottom: 150px; } */
+	.sect_3.position { padding-bottom: 0px; }
+
+	.sect_4 { text-align: center; }
+	.sect_4 .title img { }
+	.sect_4 .form { height: 0px; text-align: center; }
+	.sect_4 .form.active { margin-bottom: 30px; }
+	.sect_4 .form input[type=text] { margin-bottom: 10px; padding: 5px; width: 100%; font-size: 14px; }
+	.sect_4 .form button { padding: 4px 14px 7px 18px; }
+	.sect_4 .form button img { height: 18px; }
+	.sect_4 .check { margin-bottom: 10px; font-size: 12px; text-align: left; }
+	.sect_4 .check div a { font-size: 12px; }
+	
+	.sect_4 .inpput1 {margin-top: 10px;}
+	
+
+	.modal .contents p { font-size: 12px; }
+	.modal table th, 
+	.modal table td { font-size: 12px; }
+
+	.modal-open .sect_4 { padding-right: 0px; }
+	.modal-dialog { margin: 15px; }
+}
+
+@media (min-width: 501px) and (max-width: 991px) {
+	.sect_2.kyowon .product_area img { padding: 10px; }
+}
+
+@media (max-width: 500px) {
+	.sect_2.kyowon .product_area img { padding: 10px; width: 50%; }
+	.sect_2.hyowon .product_area .number { padding: 3px 4px 4px 4px; width: 30px; height: 30px; }
+}
+
+

@@ -1,0 +1,18 @@
+@font-face { font-family: 'Notosans'; src:url(../fonts/NotoSansKR-Regular.otf.eot), url(../fonts/NotoSansKR-Regular.woff);}
+@font-face { font-family: 'Notosans-Black'; src:url(../fonts/NotoSansKR-Black-Hestia.eot), url(../fonts/NotoSansKR-Black-Hestia.woff);}
+@font-face { font-family: 'Notosans-Bold'; src:url(../fonts/NotoSansKR-Bold-Hestia.eot), url(../fonts/NotoSansKR-Bold-Hestia.woff);}
+
+.sect_1 .top .timer {padding: 2%; color: #fff; position: absolute;z-index: 100;text-align: center;width: 65%;border-radius: 5px;background: #f0806f;margin: 0 auto;display: flex;top: 52%;left: 50%;transform: translate(-50%, -50%);justify-content: center;flex-direction: column;}
+.sect_1 .top .timer #eventtime {margin: 0; padding: 0;font-size: 25px;font-family: 'Notosans'; font-weight: 100;}
+.sect_1 .top .timer p {margin: 0; font-size: 30px;font-family: 'Notosans';font-weight: bold;}
+.sect_1 .top .z{z-index:100 ; position: absolute;}
+.sect_4 .form button img {width: 75px; height: auto;    max-height: initial;}
+.sect_4 .form button {       padding: 15px 30px;}
+
+.modal-lg {margin-top: 200px;}
+
+@media (max-width: 767px) {
+	.sect_1 .top .timer  {top: 53%;}
+    .sect_1 .top .timer #eventtime {font-size: 12px;}
+    .sect_1 .top .timer p {font-size: 14px;}
+}

@@ -1,0 +1,472 @@
+.wrapper{
+	width: 1040px;
+	margin: 0 auto;
+	position: relative;
+}
+.type{
+	font-size: 0;
+	text-align: center
+}
+.type>li{
+	display: inline-block;
+	width: 33.3%;
+	height: 80px;
+	line-height: 80px;
+	background-repeat: no-repeat;
+	background-position: top;
+	cursor: pointer;
+	background: #adadad;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 600;
+	position: relative;
+	z-index: 1
+}
+.type>li.click{
+	background: #1a2d6b;
+	color: #fff
+}
+.type>li.click::after{
+	display: block;
+	content: '';
+	width: 0px;
+	height: 0px;
+	border-top:20px solid #1a2d6b;
+	border-bottom:20px solid transparent;
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;
+	margin: 0 auto
+}
+.product_box{
+	background: #f4f4f4;
+}
+.product_box>li{
+	display: none
+}
+
+#footer{
+	width: 1040px;
+	margin: 0 auto;
+	padding: 25px 0;
+	color: #888;
+    font-size: 13px;
+	text-align: left
+}
+#footer img{
+	height: 60px;
+	margin-bottom: 20px
+}
+#footer .info_box{
+	line-height: 1.8;
+	font-size: 12px;
+	word-break: keep-all 
+}
+#footer .agency{
+    margin-top: 15px;
+	word-break: keep-all;
+}
+#footer .agency label{
+    display: inline-block;
+    background: #888;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+	color: #fff;
+	font-size: 12px
+}
+#footer .copy{
+    margin-top: 20px;
+}
+#contact .btn_tit .tit{
+	display: none
+}
+#contact .btn_tit .tit{
+	display: none
+}
+#contact .btn_tit .contact_btn{
+	display: block;
+	content: '';
+	background: url(/assets/images/lifenplus/down_btn.png) no-repeat center;
+	width: 50px;
+	height: 25px;
+	border-radius: 10px 10px 0 0;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 129px;
+	background-color : #fff !important;
+	z-index: 99;
+	border: 2px solid #000;
+	border-bottom: 0 none;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+#contact .btn_tit.click .contact_btn{
+	background: url(/assets/images/lifenplus/top_btn.png) no-repeat center;
+	bottom: 0
+}
+#contact{
+	position: fixed;
+	bottom: 0;
+	width: 1040px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 99
+}
+#contact .area_box{
+	background: #fff;
+	border: 2px solid #000;
+	border-bottom: 0 none;
+	padding: 30px;
+	box-sizing: border-box;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0
+}
+#contact .title{
+	font-weight: 600;
+	color: #000;
+	border-bottom: 2px solid #000;
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+	float: left
+}
+#contact .con_box{
+	float: right;
+	width: calc(100% - 200px)
+}
+#contact .con_box .info_box{
+	float: left
+}
+#contact .con_box .info_box .text{
+	border: 1px solid #ddd;
+	height: 45px;
+	padding: 0 10px;
+	width: 350px;
+	box-sizing: border-box
+}
+#contact .con_box .info_box .sm_text{
+	width: 250px
+}
+#contact .con_box .button{
+	float: right;
+}
+#contact .con_box .button button{
+	background: #1a2d6b;
+	color: #fff;
+	height:45px;
+	border: 0 none;
+	padding: 0;
+	font-family: inherit;
+	cursor: pointer;
+	width: 160px
+}
+
+/* Customize the label (the container) */
+.container{
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 14px;
+	margin-top: 10px;
+	padding-left: 30px;
+	text-align: left
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+ 
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark{
+  position: absolute;
+  top: -3px;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  left: 0
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #1a2d6b;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+	top: 0;
+	width: 4px;
+	height: 12px;
+	left: 7px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.container a{
+	font-weight: 600;
+	color: #888
+}
+
+
+
+.sec1{
+	background: url(/assets/images/lifenplus/1-1.png) no-repeat center;
+	position: relative;
+	padding: 50px 0;
+	padding-bottom: 100px;
+	box-sizing: border-box;
+	background-size: cover
+}
+.sec1 .product_img{
+	text-align: center;
+	margin-top: 100px
+}
+.sec2{
+	background: #f7f7f7;
+	text-align: center;
+	padding: 50px 0
+}
+.sec2 .list{
+	margin-top: 30px
+}
+.product_area_box{
+	text-align: center;
+	position: relative
+}
+.product_area_box .tit{
+	background: url(/assets/images/lifenplus/product_tit_bg.png) no-repeat center;
+	position: relative;
+	padding: 50px 0;
+	padding-bottom: 150px;
+	box-sizing: border-box;
+	background-size: cover
+}
+.product_area_box .type_box{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 326px
+}
+
+.sec3{
+	text-align: center;
+	margin-top: 50px
+}
+.sec4{
+	background: #1a2d6b;
+	padding: 50px 0;
+	text-align: center;
+	margin-top: 60px
+}
+.sec5{
+	background: url(/assets/images/lifenplus/5-2.png) no-repeat center;
+	position: relative;
+	padding: 50px 0;
+	box-sizing: border-box;
+	background-size: cover
+}
+.sec6{
+	background: #e4e4e4;
+}
+.sec7{
+	background: #f5e4e1;
+}
+.sec8{
+	text-align: center
+}
+.sec8 .tit{
+	background: #322440;
+}
+.sec8 .desc{
+	padding: 50px 0;
+	background: #4c345f
+}
+.sec9{
+	background: url(/assets/images/lifenplus/9-1.png) no-repeat center;
+	position: relative;
+	padding-top: 50px;
+	box-sizing: border-box;
+	background-size: cover
+}
+.sec10{
+	text-align: center
+}
+.sec10 .tit{
+	background: #1a2d6b;
+}
+.sec10 .desc{
+	background: url(/assets/images/lifenplus/10-2.png) no-repeat center;
+	position: relative;
+	padding-top: 70px;
+	box-sizing: border-box;
+	background-size: cover;
+	height: 957px;
+}
+#content .button{
+	margin-top: 50px;
+	text-align: center
+}
+#content .button button{
+	cursor: pointer;
+	font-size: 16px;
+	width: 250px;
+	height: 60px;
+	border-radius: 60px;
+	border: 0 none;
+	background: #1a2d6b;
+	color:#fff
+
+}
+
+#banner{
+	position: fixed;
+	right: 2.5%;
+	top: 50%;
+	transform: translateY(-50%);
+	animation-name: bounce;
+	animation-duration: .8s;
+	animation-iteration-count: 3;
+	transition: all .3s
+}
+#banner img{
+	width: 180px
+}
+#banner button{
+	display: block;
+	background: #1a2d6b;
+	height: 50px;
+	color: #fff;
+	padding: 0;
+	cursor: pointer;
+	border: 0 none;
+	width: 100%;
+	margin-top: 20px;
+	font-family: inherit;
+	border-radius: 10px;
+	font-weight: 600
+}
+
+@keyframes bounce{
+	0%, 100%{
+		top: 50%;
+		animation-timing-function: ease-out;
+	}
+
+	50%{
+		top: 51%;
+		animation-timing-function: ease-in;
+	}
+}
+
+/* @media screen and (max-width: 1240px) {
+	#banner{
+		display: none
+	}
+} */
+/* @media screen and (max-width: 800px) {
+	#footer{
+		padding: 10% 5%
+	}
+	#footer .info_box,
+	#footer .copy{
+		font-size: 11px
+	}
+	#footer .agency,
+	#footer .agency label{
+		font-size: 11px;
+	}
+	#footer .agency{
+		line-height: 1.6
+	}
+	#footer .agency label{
+		line-height: 1;
+		display: inline-block;
+	}
+	#contact .area_box{
+		padding: 2.5%;
+		padding-bottom: 30px;
+	}
+	#contact .title{
+		display: none
+	}
+	#contact .con_box{
+		float: none;
+		width: 100%;
+	}
+	#contact .con_box .info_box .text{
+		width: 100% !important;
+		height: 40px;
+		margin: 5px 0
+	}
+	.container{
+		font-size: 12px
+	}
+	#contact .con_box .info_box{
+		width: calc(100% - 100px)
+	}
+	#contact .con_box .button button{
+		height: 80px;
+		width: 80px
+	}
+	#contact .con_box .info_box .text{
+		margin: 0;
+		margin-bottom: 10px
+	}
+	.container{
+		position: absolute;
+		left: 2.5%;
+		bottom: 15px
+	}
+	#contact .contact_btn{
+		bottom: 140px
+	}
+	.type>li{
+		height: 60px;
+		line-height: 60px;
+		font-size: 20px
+	}
+	.type>li.click::after{
+		border-width: 10px
+	}
+	#contact .btn_tit .tit{
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+		bottom: 0;
+		left: 0;
+		text-align: center;
+		border-top: 2px solid #000;
+		background: #fff;
+		font-weight: 600
+	}
+	#contact .btn_tit.click .contact_btn{
+		bottom: 50px
+	}
+
+}
+
+ */

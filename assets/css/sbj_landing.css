@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+
+.col {margin-left: 0%; width: 100%;}
+.bg_01 { background-color: #fbb0aa; }
+.bg_cuckoo { background-color: #f8ebce; }
+.bg_cuckoo_gong { background-color: #fff; }
+.bg_winix{ background-color: #8d7dae; }
+.bg_addward3{ background-color: #79bc75; }
+.bg_02 { background-color: #5c8542; }
+.bg_04 { background-color: #f6f0fa; }
+
+.add_bg_01{background-color: #5fa3b8; }
+.tmon2.add_bg_01 {background-color: #5fa3b8;}
+.aia_rice {background-color: #f9f9f9;}
+.samsungL_bg_01{background-color:#000 ;}
+
+.sang_button{ margin: 20px 25%; padding: 0px;}
+
+.container { padding: 0px; }
+.container_cuckoo {padding: 0px;}
+.col-sm-offset-3.col-sm-6.col-xs-12 { padding: 0px; }
+.col-sm-offset-3.col-sm-6.col-xs-12.rentalfit0 {background-color: #278f90;} 
+.col-sm-offset-3.col-sm-6.col-xs-123 { background: #e6e6e6;padding: 20px 0 0 0 ;}
+
+.sect_3 .shinhan1 { padding: 12px 62px; font-size: 20px; font-weight: bold; color: #fff; border-radius: 30px; border: 0px; margin:16px 0; background: #9b8dd8;}
+.sect_1 img { width: 100%; }
+.sect_2 .video-bg { padding: 0px; }
+.sect_2 .video-bg_samsung { padding: 47px; }
+.sect_2 .video-bgcuckoo4 { padding: 30px; background-color: #f8f8f8;}
+.sect_3 { padding: 0px; text-align: center; }
+.sect_addward { padding: 30px; text-align: center; }
+.sect_3 button { padding: 12px 30px; font-size: 22px; font-weight: bold; color: #fff; border-radius: 8px; border: 0px; font-family: 'Noto Sans KR',sans-serif; }
+.sect_3 button.sbj_01 { background-color: #d60a43; box-shadow: 5px 5px #cd848b; font-family: 'Noto Sans KR',sans-serif;}
+.sect_3 button.daemyung_01 { background-color: #19ecff; box-shadow: 5px 5px #cd848b; font-family: 'Noto Sans KR',sans-serif;}
+.sect_3 button.cuckoo_01 { background-color: #5e985b; box-shadow: 5px 5px #3b429a; font-family: 'Noto Sans KR',sans-serif;}
+.sect_3 button.AIAOCB_01 { background-color: #d60a43; box-shadow: 5px 5px #3b429a; font-family: 'Noto Sans KR',sans-serif;}
+.sect_3 button.AIATMON_01 { background-color: #d60a43; box-shadow: 5px 5px #3b429a; font-family: 'Noto Sans KR',sans-serif;}
+.sect_3 button.cuckoo4_01 { background-color: #3b429a; box-shadow: 5px 5px #cd848b; font-family: 'Noto Sans KR',sans-serif;}
+.sect_3 button.sbj_02 { background-color: #1b4600; box-shadow: 5px 5px #8f9f84; font-family: 'Noto Sans KR',sans-serif;}
+.sect_3 button.sbj_07 { background-color: #0c7830; box-shadow: 5px 5px #587060; font-family: 'Noto Sans KR',sans-serif;}
+.sect_3 button.sbj_071 { background-color: #d96c00; box-shadow: 5px 5px #ba9773; font-family: 'Noto Sans KR',sans-serif;}
+
+
+
+.sect_3 button.myangel { background-color: #c9e1ff; border-radius:0px ; font-family: 'Noto Sans KR',sans-serif; color: #000;}
+.sect_3 button.tmon2 { background-color: #5fa3b8; border-radius:0px ; font-family: 'Noto Sans KR',sans-serif; color: #fff;}
+.sect_3 button.lina { background-color: #3b429a; border-radius:0px ; font-family: 'Noto Sans KR',sans-serif; color: #fff;}
+.sect_3 button.daemyung { background-color: #363636; border-radius:0px ; font-family: 'Noto Sans KR',sans-serif; color: #fff;}
+.sect_3 button.AIAOCB { background-color: #d60a43; border-radius:24px ; font-family: 'Noto Sans KR',sans-serif; color: #fff;}
+.sect_3 button.AIATMON { background-color: #d60a43; border-radius:24px ; font-family: 'Noto Sans KR',sans-serif; color: #fff;}
+.sect_3 button.cuckoo { background-color: #5e985b; border-radius:24px ; font-family: 'Noto Sans KR',sans-serif; color: #fff;}
+.sect_3 button.cuckoo4 { background-color: #3b429a; border-radius:24px ; font-family: 'Noto Sans KR',sans-serif; color: #fff;}
+.sect_3 button.DB_OCB { background-color: #f96a1e; border-radius:0px ; font-family: 'Noto Sans KR',sans-serif; color: #000;}
+.sect_3 button.DB_TMON { background-color: #f96a1e; border-radius:0px ; font-family: 'Noto Sans KR',sans-serif; color: #fff;}
+.sect_3 button.samgsun_OCB { background-color: #afafaf; border-radius:0px ; font-family: 'Noto Sans KR',sans-serif; color: #fff;}
+.sect_3 button.DB_OCB { background-color: #f96a1e; border-radius:0px ; font-family: 'Noto Sans KR',sans-serif; color: #000;}
+.sect_3 button.DB_OCB2 { background-color: #32a267; border-radius:0px ; font-family: 'Noto Sans KR',sans-serif; color: #000;}
+.sect_3 button.mega_OCB { background-color: #4267b8; border-radius:38px ; font-family: 'Noto Sans KR',sans-serif; color: #fff;}
+.sect_3 button.mega_TMON { background-color: #4267b8; border-radius:38px ; font-family: 'Noto Sans KR',sans-serif; color: #fff;}
+.sect_3 button.kiwoom { background-color: #e33596; border-radius:38px ; font-family: 'Noto Sans KR',sans-serif; color: #fff;}
+
+.sect_3 button.aia_rice {background-color: #ec5544;color: #fff;font-family: 'Noto Sans KR',sans-serif; border-radius: 40px;padding: 7px 30px; font-size: 20px;}
+.sect_3 button.aia_rice p {color: #fff;font-size: 12px;margin: 0px;}
+
+
+.sect_3 button.shinhan_tmon { background-color: #8574d0; font-family: 'Noto Sans KR',sans-serif;}
+
+.container .shinhan_background {background: #dbd6f4;}
+
+
+.special_sect_2{padding: 20px 12px; background-color: #c9e3fe;}
+.special_sect_2 .container .bg_01 {background-color: #fefeff;background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23dfdfdf' fill-opacity='0.38'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");}
+.special_sect_2 .container .bg_01 .bg_022 {padding: 20px 0px;}
+.special_sect_2 .container .bg_01 .bg_022 img {width: 100%;}
+.special_sect_2 .container .bg_01 .bg_022 .video-container{margin: 0 20px;padding-bottom: 50%;}
+.special_sect_2 .container .bg_01 .bg_022 .button {display: flex; justify-content: center; margin: 20px 0 20px 0px;}
+.special_sect_2 .container .bg_01 .bg_022 .button .sbj_01 {     padding-top: 6px; font-size: 11px; background-color: #0164cc; box-shadow: 0px 0px #cd848b; font-family: 'Noto Sans KR',sans-serif; border: 0px;border-radius: 30px;    width: 75%;    color: #fff;}
+.special_sect_2 .container .bg_01 .bg_022 .button .sbj_01 p {font-size: 18px; font-weight: bold; margin: 0 0 6px;font-family: auto;}
+
+
+.special_sect_2 .container .bg_01 .bg_011 {padding: 20px 0px;}
+.special_sect_2 .container .bg_01 .bg_011 img {width: 100%;}
+.special_sect_2 .container .bg_01 .bg_011 .video-container{margin: 0 15%;padding-bottom: 40%;}
+.special_sect_2 .container .bg_01 .bg_011 .button {display: flex; justify-content: center; margin: 20px 0 20px 0px;}
+.special_sect_2 .container .bg_01 .bg_011 .button .sbj_01 {     padding-top: 6px; font-size: 11px; background-color: #0164cc; box-shadow: 0px 0px #cd848b; font-family: 'Noto Sans KR',sans-serif; border: 0px;border-radius: 30px;    width: 75%;    color: #fff;}
+.special_sect_2 .container .bg_01 .bg_011 .button .sbj_01 p {font-size: 18px; font-weight: bold; margin: 0 0 6px;font-family: auto;}
+
+.sect_3 button.sbj_kiwoom { font-family: 'Noto Sans KR',sans-serif;    background-color: #e33596; box-shadow: 2px 2px #00000024; width: 100%;border-radius: 0px;}
+.sect_3 button.sbj_cuckoo_gong { font-family: 'Noto Sans KR',sans-serif;    background-color: #54b9ff; box-shadow: 2px 2px #00000024; width: 100%;border-radius: 0px;}
+.sect_3 button.sbj_cuckoo { font-family: 'Noto Sans KR',sans-serif;    background-color: #467341; box-shadow: 2px 2px #00000024; width: 100%;}
+.sect_3 button.sbj_winix{ font-family: 'Noto Sans KR',sans-serif;   background: linear-gradient( to right, #736da3, #a276ad ); box-shadow: 2px 2px #00000024; width: 100%;}
+.sect_3 button.sbj_addward3{ font-family: 'Noto Sans KR',sans-serif;    background-color: #79bc75; box-shadow: 2px 2px #00000024; width: 100%;}
+.cuckoo_btn {font-size:10px; margin: 0; color: rgb(0, 0, 0); }
+.cuckoo_btn1 {font-size:23px; margin: 0; color: white; }
+.addward_sect_3 button.sbj_01  { background-color: #d60a43; box-shadow: 5px 5px #cd848b; width: 80%;}
+.addward_sect_3 button { padding: 12px 30px; font-size: 22px; font-weight: bold; color: #fff; border-radius: 40px; border: 0px; }
+
+.sect_3 button.aia_rice_m { font-family: 'Noto Sans KR',sans-serif; text-size-adjust : auto; font-weight: bold;   background-color: #ec5544; box-shadow: 2px 2px #00000024; width: 100%;border-radius: 0px;}
+
+
+
+footer img { width: 100%; }
+
+/* Youtube */ 
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; } 
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.W_img {display: block;}
+.M_img {display: none;}
+
+.get_area1 {  bottom: 0px; width: 100%; background-color: #fff; text-align: center; z-index: 9999; display: block; }
+.get_area1 .get_btn { padding: 10px; width: 100%; background-color: #2970d6; border: none; font-size: 18px; font-weight: bold; color: #fff; }
+.get_area_m { position: fixed; bottom: 0px; width: 100%; background-color: #fff; text-align: center; z-index: 9999; display: none;}
+.get_area_m .get_btn { padding: 10px; width: 100%; background-color: #2970d6; border: none; font-size: 18px; font-weight: bold; color: #fff; }
+  
+
+
+.webgongback {display: none; height: 70px;}
+
+
+.floating { position: fixed; right: 45%; top: 180px; margin-right: -615px; text-align:center; width:70px; border-radius: 8px; -webkit-border-radius: 8px; } 
+.floating div:nth-child(1){ border-radius: 8px; }
+.floating div:nth-child(2){  border-radius: 8px; } 
+.floating div:nth-child(3){  border-radius: 8px; }
+.floating img{width: 200px;}
+
+.sect_1 .item-grid {display: flex; flex-wrap: wrap; justify-content: center; padding: 10px 20px 60px!important;}
+.sect_1 .item-grid a {width: 50%; }
+.sect_1 .item-grid a img {width: 100%; padding: 5px;}
+
+.sect_1 .item-grid-1 {display: flex; flex-wrap: wrap; justify-content: center; padding: 10px 20px 60px!important;}
+.sect_1 .item-grid-1 a {width: 100%;    margin: 2%;}
+
+
+@media (min-width: 1200px) {
+	.container_cuckoo { width: 1920px!important;}
+}
+@media (max-width: 992px){
+	.container_cuckoo {width: 970px!important;}
+}
+
+@media (max-width: 767px) {
+	.container_cuckoo {width: 750px!important;}
+	.sect_3 button { padding: 10px 24px; font-size: 18px; }
+	.sect_2 .video-bg { padding: 0px; }
+	.sect_2 .video-bg_samsung { padding: 30px; }
+	.sect_2 .video-bgcuckoo4 { padding: 15px; background-color: #f8f8f8;}
+	.W_img {display: none;}
+	.M_img {display: block;}
+	.sang_button{width: 100%; margin: 0px; padding: 0px;}
+}
+
+@media (max-width: 767px) {
+	.get_area1 {display:none;}
+	.get_area_m {display: block;}
+	.webgongback {display: block;}
+}

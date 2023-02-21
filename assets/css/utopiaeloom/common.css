@@ -1,0 +1,302 @@
+#content{
+	text-align: center;
+	overflow-x: hidden;
+	margin: 0 auto
+}
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+#content>section{
+	background-size: cover;
+	background-position: center;
+	padding: 60px 0
+}
+#content>section img{
+	max-width: 100%
+}
+#content>section p{
+	margin-top: 60px
+}
+#sec1{ background-image: url(/assets/images/utopiaeloom/sec1_bg.png) }
+#sec2 .sec2_1{ background-image: url(/assets/images/utopiaeloom/sec2_1_bg.png) }
+#sec2 .sec2_2{ padding: 30px 0; background-image: url(/assets/images/utopiaeloom/sec2_2_bg.png) }
+#sec3{ background-image: url(/assets/images/utopiaeloom/sec3_bg.png) }
+#sec4 .sec4_1{ padding-top: 60px; background-image: url(/assets/images/utopiaeloom/sec4_1_bg.png);  }
+#sec4 .sec4_2{ background-image: url(/assets/images/utopiaeloom/sec4_2_bg.png) }
+#sec5{ background-image: url(/assets/images/utopiaeloom/sec5_bg.png) }
+#sec6{ background-image: url(/assets/images/utopiaeloom/sec6_bg.png) }
+#sec7{ background-image: url(/assets/images/utopiaeloom/sec7_bg.png) }
+#sec8{ background-image: url(/assets/images/utopiaeloom/sec8_bg.png) }
+
+#sec2,
+#sec4,
+#sec8{
+	padding: 0 !important
+}
+#content>section,
+#sec2>div{
+	padding: 60px 0
+}
+#sec8{
+	padding-bottom: 60px !important
+}
+.type_box{
+	background: #c6c6c6;
+	margin-top: 60px
+}
+.type{
+	font-size: 0;
+	text-align: center
+}
+.type>li{
+	display: inline-block;
+	width: 33.3%;
+	height: 80px;
+	line-height: 80px;
+	background-repeat: no-repeat;
+	background-position: top;
+	cursor: pointer;
+	background: #c6c6c6;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 600;
+	position: relative;
+	z-index: 1
+}
+.type>li.click{
+	background: #77c391;
+	color: #fff
+}
+.type>li.click::after{
+	display: block;
+	content: '';
+	width: 0px;
+	height: 0px;
+	border-top:20px solid #77c391;
+	border-bottom:20px solid transparent;
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;
+	margin: 0 auto
+}
+.sec4_2{
+	background: #f4f4f4;
+}
+.sec4_2 .product>li{
+	display: none
+}
+
+#footer{
+	background: #333;
+	padding: 50px 0;
+	color: #fff;
+	text-align: center
+}
+#footer .util{
+	margin: 0 auto;
+	display: inline-block;
+	font-size: 0;
+	border: 1px solid #fff
+}
+#footer .util>li{
+	display: inline-block;
+	font-size: 15px;
+	vertical-align: top;
+	border-right: 1px solid #fff;
+	padding: 10px 0;
+	letter-spacing: -1px;
+	width: 160px
+}
+#footer .util>li:last-child{
+	border-right: 0
+}
+#footer .info_box{
+	margin-top: 30px;
+	word-break: keep-all;
+	line-height: 1.6
+}
+#footer .agency{
+	margin-top: 30px;
+	font-size: 14px
+}
+#footer .agency label{
+	background: #aaa;
+	border-radius: 50px;
+	padding: 3px 10px;
+	margin-right: 10px;
+	font-size: 11px;
+}
+#footer .copy{
+	margin-top: 30px;
+	font-size: 14px;
+	color: #aaa
+}
+.video{
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 50%;
+}
+iframe {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.btns_bottom{
+	background: rgba(14,16,39, .9);
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999
+}
+.btns_bottom button{
+	padding: 0;
+	cursor: pointer;
+	background: none;
+	border: 0 none;
+}
+/* Customize the label (the container) */
+.container{
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 14px;
+	margin-top: 10px;
+	padding-left: 30px;
+	text-align: left;
+	width: 100% !important
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark{
+  position: absolute;
+  top: 0;
+  height: 24px;
+  width: 24px;
+  background-color: #fff;
+  left: 0
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #0e1027;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+	top: 3px;
+	width: 7px;
+	height: 14px;
+	left: 9px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.container a{
+	font-weight: 600;
+	color: #888;
+	display: inline-block;
+	margin-left: 5px
+}
+.modal-header{
+	padding: 0;
+	border: 0 none;
+	padding: 0
+}
+.modal-header img{
+	width: 100%
+}
+.modal { text-align: center; }
+.modal:before {display: inline-block; vertical-align: middle; content: " "; height: 100%;}
+.modal-content{border-radius: 0}
+.modal-dialog {display: inline-block;text-align: left;vertical-align: middle;max-width: 500px;width: 90%}
+.modal-dialog{max-width: 800px;width: 90%}
+button.close{position: absolute;right: 0;top: -80px;opacity: 1;color: #fff;font-size: 65px;font-weight: 100;}
+button.close:hover{color: #fff;opacity: 1;}
+.modal-body{padding: 30px 8%; font-size: 16px; word-break: keep-all; color: #666; line-height: 1.6; letter-spacing: -1px; background: #f7f7f7}
+.btns_bottom button{
+	position: relative
+}
+.btns_bottom button::after {
+    position: absolute;
+    display: block;
+    content: '';
+    background: url(http://membershipevent.kr/images/langing1/cursor.png) no-repeat right bottom;
+    z-index: 1;
+    width: 62px;
+    height: 72px;
+    bottom: -5px;
+    right: 50px;
+    animation: cursor 2s infinite;
+}
+@keyframes cursor {
+  0% {transform:translate(0, 0)}
+  80% {transform:translate(-10px, -10px)}
+}
+
+.info_box .left_area{
+	float: left;
+	width: calc(100% - 200px)
+}
+.info_box .right_area{
+	float: right;
+	width: 180px;
+}
+.info_box .text{
+	border: 0 none;
+	width: 100%;
+	box-sizing: border-box;
+	display: block;
+	height: 60px;
+	background: #fff;
+	padding: 0 20px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.info_box .button button{
+	background: #0e1027;
+	width: 100%;
+	height: 60px;
+	padding: 0;
+	cursor: pointer;
+	border: 0 none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: inherit;
+	height: 130px;
+	position: relative
+}

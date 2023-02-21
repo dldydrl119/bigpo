@@ -1,0 +1,53 @@
+@font-face { font-family: 'Notosans'; src:url(../fonts/NotoSansKR-Regular.otf.eot), url(../fonts/NotoSansKR-Regular.woff);}
+@font-face { font-family: 'Notosans-Black'; src:url(../fonts/NotoSansKR-Black-Hestia.eot), url(../fonts/NotoSansKR-Black-Hestia.woff);}
+@font-face { font-family: 'Notosans-Bold'; src:url(../fonts/NotoSansKR-Bold-Hestia.eot), url(../fonts/NotoSansKR-Bold-Hestia.woff);}
+
+.sect_1 .top .timer {padding: 2%; color: #fff; position: absolute;z-index: 100;text-align: center;width: 65%;border-radius: 5px;background: #f0806f;margin: 0 auto;display: flex;top: 52%;left: 50%;transform: translate(-50%, -50%);justify-content: center;flex-direction: column;}
+.sect_1 .top .timer #eventtime {margin: 0; padding: 0;font-size: 25px;font-family: 'Notosans'; font-weight: 100;}
+.sect_1 .top .timer p {margin: 0; font-size: 30px;font-family: 'Notosans';font-weight: bold;}
+.sect_1 .top .z{z-index:100 ; position: absolute;}
+.sect_4 .form button img {width: 75px; height: auto;    max-height: initial;}
+.sect_4 .form button {       padding: 15px 30px;}
+
+.sect_4 .form.active { height: auto; }
+
+
+.modal-lg {margin-top: 200px;}
+
+.baroyeon .container {background-color: #5fa593;}
+/* 모달 스타일 */
+.modal {display: none;position: fixed;z-index: 1;left: 0;top: 0;width: 100%;height: 100%;overflow: auto;background-color: rgba(0, 0, 0, 0.4);}
+.modal-content { font-family: 'Notosans';background-color: #fefefe;margin:5% 20%;padding: 20px;border: 1px solid #888;width: initial;}
+.close {color: #aaa;float: right;font-size: 28px;font-weight: bold;}
+.close:hover,
+.close:focus {color: black;text-decoration: none;cursor: pointer;}
+.form table {border-collapse: collapse;width: 100%;	}
+.form td {padding: 10px;border: 1px solid #ccc;}
+.form td:first-child {width: 120px;}
+.sect_4 .form {height: auto;}
+.sect_4 .form input[type="text"],
+.sect_4 .form input[type="tel"],
+.sect_4 .form button,.sect_4 .form select {width: 100%;height: 35px;padding: 5px;font-size: 16px;border: 1px solid #ccc;box-sizing: border-box; margin: 0;     background-color: #fff; -webkit-appearance: none;  /* 네이티브 외형 감추기 */-moz-appearance: none;appearance: none;}
+.form button {margin-top: 10px;	background-color: #0072C6;	color: #fff;	border: none;	cursor: pointer;}
+.form .desc {display: flex; align-items: center;padding: 5px 0;}
+.form .desc p {width: 30%;  text-align: left; margin: 0px;color: #000;}
+
+.form .checkbox {display: flex; margin: 0;}
+.form .checkbox .opacity {width: 30%;}
+.form .checkbox .check {width: 100%; margin: 0;}
+.form .checkbox .check .desc {margin: 0;}
+.sect_4 .form .checkbox .desc {margin: 0;color: #000; padding: 10px 0 0 0;}
+.form .checkbox .desc input {position: inherit;}
+.sect_4 .check div a {color:#747474 ;}
+
+.form .ask_comp {background-color: #5fa593;padding: 10px;border-radius: 10px;margin-top: 14px;color: #fff;}
+.form .ask_comp p {margin: 0;font-size: 18px;font-family: 'Notosans';}
+
+
+@media (max-width: 767px) {
+    .modal-content {margin: 15% 5%;}
+	.sect_1 .top .timer  {top: 53%;}
+    .sect_1 .top .timer #eventtime {font-size: 12px;}
+    .sect_1 .top .timer p {font-size: 14px;}
+    .sect_4 .form.active { height: auto; }
+}

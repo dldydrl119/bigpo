@@ -1,0 +1,142 @@
+@font-face { font-family: 'Notosans'; src:url(../fonts/NotoSansKR-Regular.otf.eot), url(../fonts/NotoSansKR-Regular.woff);}
+@font-face { font-family: 'Notosans-Black'; src:url(../fonts/NotoSansKR-Black-Hestia.eot), url(../fonts/NotoSansKR-Black-Hestia.woff);}
+@font-face { font-family: 'Notosans-Bold'; src:url(../fonts/NotoSansKR-Bold-Hestia.eot), url(../fonts/NotoSansKR-Bold-Hestia.woff);}
+
+body {font-family: 'Notosans';}
+.modal {position: fixed;top: 0;left: 0;
+	width: 100%;height: 100%;display: none;
+	background-color: rgba(0, 0, 0, 0.4);}
+.modal_body {position: fixed;top: 50%;left: 50%;
+		width: 400px;height: auto;
+		padding: 40px;
+		text-align: center;
+		background-color: rgb(255, 255, 255);border-radius: 10px;box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+		transform: translateX(-50%) translateY(-50%); }
+.modalclose {width: 100%;height: 100%;}
+
+.modal_body .title {font-size: 20px; font-weight: bold; color: #333;}
+.modal_body .form .inpput1 { padding: 10px; margin: 10px 0;border: 0; border-radius: 26px;  background-color: #ededed;  width: 100%; height: auto;}
+.modal_body .form .check {display: flex;flex-direction: column;align-items: flex-start;}
+.modal_body .form .check .box {font-size: 13px;    color: #242424; }
+.modal_body .form .check .box .agree {margin: 0 5px;}
+.modal_body .form .mb_btn {border: 0; width: 100%; margin-top: 20px; padding: 10px; border-radius: 26px; background-color: #af2527; color: #fff;}
+
+.info_call {
+	width: 100%;
+	line-height: 36px;
+	color: black;
+	border: 1px solid #2970d6;
+	font-size: 1.4vw;
+}
+.infoDetail {
+	width: 100%;
+    padding: 54px 0;
+    border: 1px solid #2970d6; 
+    font-size: 20px;
+    line-height: 40px;
+}
+.infobutton {
+	display: block;
+	width: 100%;
+    background-color: #2970d6;
+    color: #ffffff;
+    border: none;
+    line-height: 70px;
+    cursor: pointer;
+}
+.infobutton1 {
+	display: none;
+	width: 100%;
+    background-color: #2970d6;
+    color: #ffffff;
+    border: none;
+    line-height: 70px;
+    cursor: pointer;
+}
+.infoimg {
+	width: 20%;
+	border-radius: 100px;
+}
+
+.db_area_m { position: fixed; bottom: 0px; width: 100%; background-color: #fff0; text-align: center; z-index: 2; display: block;}
+.col-sm-offset-3.col-sm-6.col-xs-12 {background-color: #e9e9e9;}
+.sect_3 button {width:100%; padding: 12px 30px; font-size: 22px; font-weight: bold; color: #fff; border-radius: 8px; border: 0px; font-family: 'Noto Sans KR',sans-serif; background-color: #ce3233;}
+.sect_3 .ask_comp1 {width: 100%;padding: 10px 30px 12px 30px;font-size: 20px;font-weight: bold;color: #fff;border-radius: 46px;border: 1px solid #878787;font-family: 'Noto Sans KR',sans-serif;background-color: #151924;letter-spacing: -3px;word-spacing: 4px;}
+.sect_4 .form {margin: 0;}
+.sect_4 .check div a {margin-left: 10px; font-size: 14px; color: #242424;}
+.sect_4 .form button { cursor: pointer; border: 0; width: 100%; margin-top: 20px; padding: 10px; border-radius: 26px; background-color: #af2527; color: #fff;}
+
+.daon .bg_color {background-color: #353944;padding: 30px 20px;}
+.daon .title {color: #fff; background-color: #121621;padding: 4px 5px;border-radius: 5px;}
+.daon .title p {font-size: 24px;font-weight: bold;color: #a0fe45;letter-spacing: -3px;word-spacing: 4px;}
+.daon .form .selectbox {    background-color: whitesmoke;padding: 12px;margin-top: 20px;border-radius: 5px;}
+.daon .form .selectbox .question {font-family: 'Notosans';font-size: 16px;text-align: left; letter-spacing: -2px;word-spacing: 4px;}
+.daon .form .selectbox .question strong {    font-family: 'Notosans-bold';}
+.daon .form .selectbox .radio {list-style: none; margin: 20px 0;text-align: left;letter-spacing: -2px;word-spacing: 4px;}
+.daon .form .selectbox .radio label {margin-bottom:15px; padding-left: 60px;font-weight: bold;}
+.daon .form .selectbox .radio input[type=radio] {margin-left: -60px;}
+.daon .form .selectbox .text {list-style: none; margin-top: 7px;}
+.daon .form .selectbox .text li {display: flex;align-items: center;justify-content: space-around;margin: 0 0px;}
+.daon .form .selectbox .text li span {font-family: 'Notosans';font-size: 19px;text-align: left;letter-spacing: -2px;word-spacing: 4px;font-weight: bold;padding: 0;}
+.daon .form .selectbox .text li input {padding: 10px;font-size: 14px;margin: 10px 0;border: 0;border-radius: 26px;background-color: #ededed;width: 74%;height: auto;}
+.daon .form .selectbox .check {display: block;font-size: 14px;color: #525252;}
+.daon .form .selectbox .check .box {padding: 10px;}
+
+.daon .form .button {text-align: center; margin-top: 15px;}
+.daon [type="radio"] {vertical-align: middle;appearance: none;border: max(1px, 0em) solid gray;border-radius: 50%;width: 1em;height: 1em;background-color:#f5f5f5;transition: border 0s ease-in-out;}
+.daon [type="radio"]:checked {background-color:#a0fe45}
+.daon [type="radio"]:hover {box-shadow: 0 0 0 max(0px, 0em) lightgray;cursor: pointer}
+
+.daon_button { padding: 0px;}
+
+.daon .yo_title {padding: 4px 5px;border-radius: 5px;}
+.daon .yo_title p {font-size: 24px;font-weight: bold;color: #ffffff;letter-spacing: -3px;word-spacing: 4px;}
+
+.daon .timer {background-color: #f6f5f1;padding: 20px;display: flex;align-items: center;justify-content: space-around;}
+.daon .timer .left {color: #5d5465; font-weight: bold;}
+.daon .timer .left .Dday {font-size: 40px;font-family: 'Notosans-Bold';line-height: 38px;}
+.daon .timer .right {padding: 10px;border: 1px solid #b5b5b5;border-radius: 35px;width: 70%;box-shadow: 3px 3px 6px;}
+.daon .timer .right #eventtime {font-weight: bold;color: #5d5465;}
+
+
+/*tab css*/
+.daon .tab{width:100%; height:auto;}
+.daon .tabnav{font-size:0; width:100%; border:0px solid #ddd;padding: 10px 0 0 0;}
+.daon .tabnav li{display: inline-block;  height:44px; text-align:center; }
+.daon .tabnav li a:before{content:""; position:absolute; left:0; top:0px; width:100%; height:3px; }
+.daon .tabnav li a{ position:relative; display:block; background: #f8f8f8; color: #000; padding:10px;border-radius: 4px 4px 0 0;margin: 0 10px;text-decoration:none; font-size:16px;}
+.daon .tabnav li a:hover,
+.daon .tabnav li a.active{background:#ce3233; color:#fff; }
+.daon .tabcontent{padding: 20px; height:auto; background-color: #fff;border: 1px solid #fff;margin-bottom: 20px;border-radius: 5px;}
+.daon .tabnav2{font-size:0; width:100%; border:0px solid #ddd;padding: 10px 0 0 0;}
+.daon .tabnav2 li{display: inline-block;  height:44px; text-align:center; }
+.daon .tabnav2 li a:before{content:""; position:absolute; left:0; top:0px; width:100%; height:3px; }
+.daon .tabnav2 li a{ position:relative; display:block; background: #f8f8f8; color: #000; padding:10px;border-radius: 4px 4px 0 0;margin: 0 10px;text-decoration:none; font-size:16px;}
+.daon .tabnav2 li a:hover,
+.daon .tabnav2 li a.active{background:#ce3233; color:#fff; }
+.daon .tabcontent2{padding: 20px; height:auto; background-color: #fff;border: 1px solid #fff;margin-bottom: 20px;border-radius: 5px;}
+.daon .tabnav3{font-size:0; width:100%; border:0px solid #ddd;padding: 10px 0 0 0;}
+.daon .tabnav3 li{display: inline-block;  height:44px; text-align:center; }
+.daon .tabnav3 li a:before{content:""; position:absolute; left:0; top:0px; width:100%; height:3px; }
+.daon .tabnav3 li a{ position:relative; display:block; background: #f8f8f8; color: #000; padding:10px;border-radius: 4px 4px 0 0;margin: 0 10px;text-decoration:none; font-size:16px;}
+.daon .tabnav3 li a:hover,
+.daon .tabnav3 li a.active{background:#ce3233; color:#fff; }
+.daon .tabcontent3{padding: 20px; height:auto; background-color: #fff;border: 1px solid #fff;margin-bottom: 20px;border-radius: 5px;}
+
+
+
+
+@media (max-width: 767px) {
+	#get_main .fill .middle { width: 100%; height: 100%; position: absolute; top: 32%; }
+	#get_main .manual .manual_area .manual_contents .panel-group .panel-body br { display: none; }
+	#get_main .get_area1 {display: inline;}
+	#get_main .get_area_m {display: none;}
+	#get_main2 .get_area1 {display: inline;}
+	#get_main2 .get_area_m {display: none;}
+	.infobutton1 {display: block;width: 100%;background-color: #2970d6;color: #ffffff;border: none;line-height:25px;cursor: pointer;}
+	.infobutton {display: none;width: 100%;background-color: #2970d6;color: #ffffff;border: none;line-height: 70px;cursor: pointer;}
+
+   
+	.modal_body {width: 94%;height: 355px;}
+    .sect_4 .form input[type=text] { margin-bottom: 10px; padding: 10px; width: 100%; font-size: 14px; }
+	}

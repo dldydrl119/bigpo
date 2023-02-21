@@ -1,0 +1,242 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+/* reset */
+* {margin: 0;padding: 0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0; font-family:'NanumBarunGothic', sans-serif;}
+a {color: inherit; text-decoration: inherit;}
+li {list-style: none;}
+address, em {font-style: normal;}
+img {vertical-align: middle;} 
+b {font-weight: bold}
+
+/* layout */
+body {font-family:'NanumBarunGothic', sans-serif; color: #1a1a1a; font-size: 14px; letter-spacing: -0.05em;}
+#wrap {position:relative; width:100%; margin:0 auto;}
+.inner {width: 100%; margin: auto}
+
+/* footer */
+footer {text-align: center;}
+footer .num img{width:100%;}
+footer .footerBox {background: #2d2d2b; color: #888; padding: 30px 0; font-size: 12px; font-weight: 300;    padding-bottom: 80px;}
+footer .footerBox ul {width: 85%; margin: 0 auto 20px; border: 1px solid #999; overflow: hidden;}
+footer .footerBox ul li {width: 33.3333%; height: 30px; line-height: 30px; float: left; border-right: 1px solid #999; box-sizing: border-box;}
+footer .footerBox ul li:last-child {border-right: none;}
+footer .footerBox ul li a {display: block; width: 100%; height: 100%; color: #fff;}
+footer .footerBox h4 {color: #eee;}
+footer .footerBox h4 span {color: #edffbd;}
+footer .footerBox p {line-height: 1.8;}
+footer .footerBox p.color {color: #eee;line-height: 1.6; margin-top: 10px;}
+footer .footerBox p.color em {color: #222; background: #6d6d6d; padding: 0 5px; border-radius: 5px; margin-right: 5px; font-weight: normal; display: inline-block;}
+
+@media screen and (min-width:320px) {
+	section.mainVisual {padding: 30px 0;}
+	section.card {padding: 60px 0;}
+	footer .footerBox { font-size: 10px;}
+	footer .footerBox h4 {letter-spacing: -1px; font-size: 11px;}
+}
+    /* floatArea */
+	.floatArea {z-index:100;}
+    .floatArea.on{bottom:0;z-index:100;}
+    .floatArea .deem{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);    z-index: 10;}
+    .floatArea .footer{position:fixed;bottom:-349px;left:0;width:100%;background:#eee;z-index:100;}
+    .floatArea .footer h3{text-align: center;background: linear-gradient( to left, #96d6d2, #53bfc9 );padding:16px 0;}
+    .floatArea .footer h3>img{height:30px;}
+    .floatArea .footer .form{width:100%;margin:0 auto; background:#eee}
+    .floatArea .footer .form>div{max-width:720px;margin:0 auto}
+    .floatArea .footer .form>div .top{position:relative;width:92%;margin:0 auto; padding: 14px 0 0;}
+    .floatArea .footer .form>div .top .trans{display:block;content:"";width:100%;height:100px;background:transparent;position:absolute;top:0;left:0}
+    .floatArea .footer .form>div .top span{display:block; margin:7px auto}
+    .submitBtn {width:55%;display:block; margin:7px auto;max-width:350px;margin:15px auto 30px;}
+    .floatArea .footer .form>div .top input{width:100%;padding:0 0 0 10px;height:42px;line-height:42px;font-size:15px; font-weight:300;  color:#000;border:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;border-radius: 4px; box-sizing: border-box}
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { .floatArea .footer .form>div .top span.select_wrap select{background:#fff}  }
+    .floatArea .footer .form>div .btm{position:relative;width:92%;margin:15px auto 20px}
+    .floatArea .footer .form>div .btm .btn_agree{z-index:100;font-family: 'Noto Sans KR', sans-serif; position:absolute;top:32px;right:0px;display:block;width:60px;height:26px;line-height:26px;text-align:center;font-size:12px;border-radius:4px;background:#cccccc;color:#fff;}
+    .btn_agree2{z-index:100;font-family: 'Noto Sans KR', sans-serif;position:absolute;top:63px;right:0px;display:block;width:60px;height:26px;line-height:26px;text-align:center;font-size:12px;border-radius:4px;background:#cccccc;color:#fff;}
+    .floatArea .footer .form>div .btm label{display:block;height:28px;line-height:25px;}
+    .floatArea .btn_close{display:none;position:absolute;top:10px;right:13px;width:36px;height:36px}
+    .floatArea .btn_close>img{width:36px;height:36px}
+    /* checkbox */
+    .checks {position: relative; margin: 20px auto 25px; letter-spacing: -1px;text-align: left;}
+    .checks input[type="checkbox"] {position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); border: 0 }
+    .checks input[type="checkbox"] + label { display: inline-block; position: relative; padding-left: 35px; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; font-size: 15px;vertical-align: middle; color: #8a8a8a; margin-bottom: 6px;}
+    .checks input[type="checkbox"] + label:before {content: ''; position: absolute; left: 0; top: 0px; width: 24px; height: 24px; line-height: 20px;  text-align: center; background: #fff; border: 1px solid #e6e6e6; border-radius: 4px;}
+    .checks input[type="checkbox"] + label:active:before, .checks input[type="checkbox"]:checked + label:active:before { box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1); }
+    .checks input[type="checkbox"]:checked + label:before {line-height: 28px;font-size: 20px; font-weight: bold; content: '\2714';  color: #45bac7; background: #fff; border-color: #e6e6e6;}
+
+
+/* title 모션 */
+.title {text-align: center; line-height: 1.3;}
+.title p {font-size: 25px;}
+.title h2 {font-size: 35px; font-weight: normal}
+
+.title.motion .char {display: inline-block;  animation: text1 0.6s both; animation-delay: calc(60ms * var(--char-index));}
+.title.motion h2 .char {animation-duration: 1.6s;}
+@keyframes text1 {0% {opacity: 0;} 30% {opacity: 0;} }
+.title.motion p.mask {animation-name: title2; animation-duration: 1.5s;position: relative; z-index: 2; padding:  3px 4px 0px;display: inline-block; margin-bottom: 5px;}
+.title.motion p.mask:before {animation-name: title1; animation-duration: 1.5s}
+.title .mask:before {content: ''; top: 50%; transform: translateY(-50%);left: 0; width: 0%; height: 100%; background: #fff; position: absolute; z-index: -1;}
+@keyframes title1 { 0% {width: 0%; } 30% {width: 0%} 60% {width: 100%;} 70% {width: 100%;left: 0;} 100% {left: 100%;} }
+@keyframes title2 { 0% {opacity: 0;} 30% {opacity: 0;} 70% {color: #45bac7} }
+
+/* visual */
+section.visual {position: relative; max-height: 735px; overflow: hidden}
+section.visual h1 {position: absolute; top: 0; background: #fff; height: 60px; line-height: 60px;text-align: center; width: 100%;}
+section.visual h1 .logo { width: 40%; display: block; margin: auto; max-width: 190px;}
+section.visual h1 .logo img {width: 100%;}
+section.visual .title {width: 100%; text-align: center;position: absolute; top: 25%; font-weight: 500;}
+section.visual .title p {font-size: 17px; color: #fff;font-weight: 400; line-height: 1.4;}
+section.visual .title p.color {position: relative;font-size: 21px; color: #fbffbb; margin-bottom: 80px;display: inline-block;}
+section.visual .title p.color:after {content: ''; bottom: 0; left: 3%;  width: 0%; height: 2px; background: #fbffbb; position: absolute;transition: all 0.9s; transition-delay: 0.3s}
+section.visual .title.motion p.color:after {width: 94%;}
+section.visual .title h2 {font-weight: bold;font-size: 35px; color: #fff; font-size: 58px; line-height: 1.3; position: relative;}
+section.visual .title h2:after {content: ''; top: -55px; left: 50%;margin-left: -2px;  width: 2px; height: 40px; background: #fff; position: absolute;}
+section.visual .title h2:nth-child(3):after {display: none}
+section.visual .title h2.size { font-size: 35px; letter-spacing: 1px;}
+section.visual .title h2 b {background: #fff;font-size: 60px; height: 65px; line-height: 73px; box-sizing: border-box; color: #46b7c8; padding: 0px 8px; border-radius: 5px; display: inline-block; margin-bottom: 15%;}
+section.visual .title.motion h2 b ,section.visual .title.motion h2:after{animation: text1 1.3s both;}
+section.visual .scroll {position: absolute; bottom: 25px; left: 50%;  display: inline-block; animation: scroll 1.8s infinite linear; width: 60px; margin-left: -35px;}
+section.visual .scroll img {width: 100%;}
+@keyframes scroll { 50% { transform: translateY(-10px); } }
+
+/* a */
+section.a {background: #f0f0f0; padding: 100px 0 10%; margin-top: -50px;}
+section.a .title p {margin-bottom: 20px;}
+section.a .title.motion p {animation: text1 0.5s both;}
+section.a .title.motion h2 .char {animation-duration: 0.8s; animation-delay: calc(30ms * var(--char-index));}
+section.a .case {width: 95%; margin: 30px auto; text-align: center; position: relative;}
+section.a .case.b {margin: 40px auto 0;}
+section.a .case > img {width: 80%;}
+section.a .case li {width: 45%; position: absolute;}
+section.a .case li img {width: 100%;}
+section.a .case li:nth-child(1){left: 0%; top: 19.5%;  animation-duration: 0.5s}
+section.a .case li:nth-child(2){left: 0%; top: 44%; animation-duration: 0.6s}
+section.a .case li:nth-child(3){left: 0%; top: 66%; animation-duration: 0.7s}
+section.a .case li:nth-child(4){right: 0%; top: 31%; animation-duration: 0.8s}
+section.a .case li:nth-child(5){right: 0%; top: 57%; animation-duration: 0.9s}
+section.a .case li:nth-child(6){right: 0%; top: 81%; animation-duration: 1s}
+section.a .case li.motion {animation-name: slide-up;}
+@keyframes slide-up {0% {opacity: 0;} 30% {opacity: 0; transform: translateY(-20px)}}
+
+
+
+/* b */
+section.b {background: url(/assets/images/sbj_06_m/landimg/img_7.png) no-repeat center/cover; padding: 10% 0 0; text-align: right}
+section.b .inner {width: 93%; position: relative;}
+section.b ul {overflow: hidden; width: 100%; margin-top: 30px;}
+section.b ul li {float: left; width: 48.9%; text-align: center; background: #fff; padding-bottom: 30px;}
+section.b ul li:nth-child(2) {float: right}
+section.b ul li h3 {background: linear-gradient(150deg, rgba(77,153,232,1) 0%, rgba(129,92,225,1) 100%); color: #fff; font-size: 17px; padding: 13px 0 10px;}
+section.b ul li:nth-child(2) h3 {background: linear-gradient(150deg, rgba(241,94,144,1) 0%, rgba(227,159,159,1) 100%);}
+section.b ul li h4 {font-size: 17px; margin: 20px 0 5px;}
+section.b ul li h4 b { color: #808080}
+section.b ul li h4 .count {font-size: 28px;}
+section.b ul li > span {color: #808080; font-size: 12px;}
+section.b ul li .img img {width: 85%;}
+section.b ul li:nth-child(2) .img img {width: 63%;}
+section.b ul li .img {margin-top: 25px;}
+section.b ul li .img.motion {animation-name: slide-up; animation-duration: 1.5s;}
+section.b .vs {position: absolute; top:46%;left: 50%;transform: translateX(-50%);width: 23%}
+section.b .vs img {width: 100%}
+section.b .vs.motion {animation-name: vs; animation-duration: 0.4s;}
+@keyframes vs { 0% { opacity: 0; }20% {opacity: 0;transform:  translateX(-50%) scale(3)} }
+
+/* c */
+section.c {background: #fff; padding: 10% 0 0; position: relative; z-index: 2; box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.13)}
+section.c img {width: 100%;}
+section.c .inner {width: 93%;}
+section.c .title.motion p {animation: text1 1.5s both; margin: 0 auto 0px; width: 93%;}
+section.c .title.motion h2 .char {animation-duration: 0.8s; animation-delay: calc(30ms * var(--char-index));}
+section.c ul li img {width: 95%;}
+
+/* d */
+section.d {background: #f0f0f0; padding: 10% 0; text-align: center;}
+section.d .title {margin-bottom: 30px;}
+section.d .title p {margin-bottom: 20px;}
+section.d .title.motion p {animation: text1 0.5s both;}
+section.d .title.motion h2 .char {animation-duration: 0.8s; animation-delay: calc(30ms * var(--char-index));}
+section.d img {width: 85%;}
+
+/* e */
+section.e {background: url(/assets/images/sbj_06_m/landimg/img_18.png) no-repeat center/cover; padding: 10% 0; text-align: center}
+section.e p.img {margin-top: 30px;}
+section.e p.img img {width: 90%;}
+section.e p.img.b img {width: 95%;}
+section.e iframe {margin-top: 30px;}
+section.e p.img.motion{animation: text1 1s both;}
+
+/* f */
+section.f {position: relative}
+section.f ul {position: absolute; width: 40%; right: 3.5%;  top: 15%;}
+section.f ul li {margin-bottom: 20px;}
+section.f ul li.motion {animation-name: slide-up; animation-duration: 0.8s;}
+section.f ul li:nth-child(2).motion { animation-duration: 1s;}
+section.f ul li:nth-child(3).motion { animation-duration: 1.1s;}
+
+/* g */
+section.g {background:#fff; padding: 10% 0 0; text-align: center}
+section.g .inner {width: 93%;}
+section.g ul  {overflow: hidden; margin: 30px 0;}
+section.g ul li {float: left; width: 33.33333%; text-align: center; position: relative; margin-bottom: 10px;}
+section.g ul li img {width: 90%}
+section.g ul li:after {content: ''; width: 30px; height: 32px; background: url(/mobile/asset/mobile/image/MO/landimg/img_21.png) no-repeat center/cover; position: absolute; left: -16px; top: 60%; margin-top: -22px; z-index: 2;}
+section.g ul li:nth-child(1):after,section.g ul li:nth-child(4):after {display: none}
+section.g ul li:nth-child(4) {margin-left: 17%}
+section.g ul li img {box-shadow: 2px 5px 5px rgba(13, 13, 13, 0.2); border-radius: 10px}
+section.g h3 {margin-bottom: 10%;}
+section.g ul.motion li:nth-child(2) {animation: l1 0.5s both;}
+section.g ul.motion li:nth-child(3) {animation: l1 0.7s both;}
+section.g ul.motion li:nth-child(4) {animation: l1 0.9s both;}
+section.g ul.motion li:nth-child(5) {animation: l1 1s both;}
+@keyframes l1 { 0% { opacity: 0; }30% {opacity: 0;transform: translateX(-30px); } }
+
+/* h */
+section.h{background-color: #f0f0f0; padding:10% 0; text-align: center;}
+section.h .inner{width: 93%;}
+section.h .title{margin-bottom: 30px;}
+section.h .title.motion p {animation: text1 0.5s both; margin-bottom: 10px;}
+section.h .title.motion h2 .char {animation-duration: 1s; animation-delay: calc(30ms * var(--char-index));}
+section.h .list_con{text-align: left; background-color: #fff; padding:30px 15px; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);}
+section.h .list_con.motion{animation: text1 0.5s both;}
+section.h ul.list_style_0{}
+section.h ul.list_style_0 > li{margin-bottom: 20px; word-break: keep-all;}
+section.h ul.list_style_0 > li:last-child{margin-bottom: 0;}
+section.h ul.list_style_0 > li > h3{position: relative; overflow: hidden; font-size:18px; margin-bottom: 5px; padding-left: 20px;}
+section.h ul.list_style_0 > li > h3::before{content: ''; position: absolute; top:4px; left:calc(10px / 2); width: 10px; height: 10px; background-color: #46b7c8; border-radius: 50%;}
+section.h ul.list_style_1{}
+section.h ul.list_style_1 > li{font-size:13px; line-height: 1.5}
+section.h ul.list_style_1 > li > div.list_title{font-weight: bold; margin-right: 5px; float: left;}
+section.h ul.list_style_1 > li > div.list_content{overflow: hidden;}
+section.h .table_style_0{text-align: center; border-spacing: 4px; width: 100%;}
+section.h .table_style_0 thead th{padding:10px; font-weight:500; color:#fff; background-color: #46b7c8;}
+section.h .table_style_0 tbody td{padding: 10px; font-weight:500; background-color: #f0f0f0;}
+
+
+/*  landing_3 추가 */
+.visual_lan3  {position:relative}
+.visual_lan3 .a.motion {animation-name: vs; animation-duration: 0.4s;}
+.visual_lan3 .a{position:absolute; left: 52%; top:11%;transform: translateX(-50%); width:79%;}
+.lan3  {position:relative}
+.lan3:after {content:'';position:absolute; right: 0%; top:0%;width:100%; height:21%; background:#fff6e4; transition:0.2s; opacity:0}
+.lan3.motion:after  {opacity:1;width:0%; transition: width 0.9s; transition-delay:0.3s}
+
+/*  landing_4 추가로 가전 그대로 변경 */
+/* section.goodsBox */
+section.goodsBox {background: #fff; text-align: center;}
+section.goodsBox .title img{margin-top: 5%;}
+section.goodsBox .title .size {color: #5c11b9}
+section.goodsBox ul li {margin:8% 0}
+section.goodsBox ul li h3 {width: 57%; margin: auto;}
+section.goodsBox ul li .or {margin-top: 8%; display: block;}
+section.goodsBox ul li .list { border: 2px solid #ff4b3e; border-radius: 15px; background: #f9efee; padding: 10px 5px; box-sizing: border-box;}
+section.goodsBox ul li:first-child .list {border-color: #4048e4; background: #eaebf7}
+
+@media screen and (max-width:500px) {
+	.title p {font-size: 18px;}
+	.title h2 {font-size: 24px;}
+}
+@media screen and (max-width:320px) {
+	.title p {font-size: 17px;}
+	.title h2 {font-size: 22px;}
+}
+

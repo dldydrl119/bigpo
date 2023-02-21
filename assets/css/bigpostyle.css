@@ -1,0 +1,109 @@
+.web1 {
+    display: none;
+}
+
+.mobile1 {
+    display: block;
+}
+
+@media (max-width:450px) {
+    .web1 {
+        display: block;
+    }
+
+    .mobile1 {
+        display: none;
+    }
+}
+
+#text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+#img {
+    margin: 0 0 10px;
+    width: 15%;
+}
+
+#button {
+    width: 100%;
+}
+
+#pop {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#pop>article {
+    width: 50%;
+    position: relative;
+    z-index: 2;
+    background: white;
+    box-shadow: 3px 3px 5px black;
+    margin: 12% 0 0 25%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.black {
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+
+.info_call {
+    width: 100%;
+    line-height: 36px;
+    color: black;
+    border: 1px solid #5c9457;
+    font-size: 1.4vw;
+}
+
+.infoDetail {
+    width: 100%;
+    padding: 54px 0;
+    border: 1px solid #5c9457;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.infobutton {
+    width: 100%;
+    background-color: #5c9457;
+    color: #333;
+    border: none;
+    line-height: 70px;
+    cursor: pointer;
+}
+
+.infoimg {
+    width: 20%;
+    border-radius: 100px;
+}
+
+@media (max-width: 767px) {
+
+    #get_main .fill .middle {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 32%;
+    }
+
+    #get_main .manual .manual_area .manual_contents .panel-group .panel-body br {
+        display: none;
+    }
+
+    #get_main .get_area1 {
+        display: inline;
+    }
+
+    #get_main .get_area_m {
+        display: none;
+    }
+}
