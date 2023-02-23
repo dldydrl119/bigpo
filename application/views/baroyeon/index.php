@@ -120,9 +120,9 @@
 		const form = document.querySelector('.form');
 		const submitBtn = document.getElementById('submitBtn');
 		submitBtn.addEventListener('click', (event) => {
-			event.preventDefault(); // prevent the default form submission
+			event.preventDefault(); // 기본 양식 제출을 방지
 
-			// retrieve the values of the form fields
+			// 양식 필드의 값을 검색
 			const phoneNum = form.querySelector('#phone').value.replace(/-/g, ''); // 하이픈 제거
 			const formData = {
 				name: form.querySelector('#name').value,
@@ -136,10 +136,10 @@
 				area: form.querySelector('#live').value
 			};
 
-			// construct the URLSearchParams object from the form data
+			// 양식 데이터에서 URLsearchParams 개체를 구성
 			const params = new URLSearchParams(formData);
 
-			// make the JSONP request
+			// JSONP 요청
 			function response(data) {
 				console.log(data);
 			}
